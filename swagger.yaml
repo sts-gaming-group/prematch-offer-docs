@@ -4,7 +4,7 @@ info:
   description: Api for providing STS prematch offer
   version: 1.0.0
 servers:
-  - url: https://prematch-feed-offer-gateway-djgvdr3e.ew.gateway.dev	
+  - url: https://prematch-offer-gateway-djgvdr3e.ew.gateway.dev
 tags:
   - name: offer
 paths:
