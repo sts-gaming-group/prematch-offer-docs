@@ -7,6 +7,8 @@ servers:
   - url: https://prematch-offer-gateway-djgvdr3e.ew.gateway.dev
 tags:
   - name: offer
+security:
+  - api_key: []
 paths:
   /offer:
     get:
