@@ -3,6 +3,8 @@ info:
   title: Prematch Offer API
   description: Api for providing STS prematch offer
   version: 1.0.0
+servers:
+  - url: https://prematch-feed-offer-gateway-djgvdr3e.ew.gateway.dev	
 tags:
   - name: offer
 paths:
@@ -32,7 +34,7 @@ paths:
           required: false
           schema:
             type: integer
-            example: 187
+            example: 59991
       responses:
         '200':
           description: A successful response
@@ -153,3 +155,9 @@ paths:
                     type: integer
                   is_custom_bet_available:
                     type: boolean
+components:
+  securitySchemes:
+      api_key:
+        type: apiKey
+        name: x-api-key
+        in: header
