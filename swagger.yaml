@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
   title: Prematch Offer API
-  description: Api for providing STS prematch offer. API URL: https://prematch-offer-gateway-djgvdr3e.ew.gateway.dev
+  description: "Api for providing STS prematch offer. API URL: https://prematch-offer-gateway-djgvdr3e.ew.gateway.dev"
   version: 1.0.0
 servers:
   - url: https://prematch-offer-gateway-djgvdr3e.ew.gateway.dev
